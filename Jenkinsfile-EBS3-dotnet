@@ -4,7 +4,7 @@ pipeline {
         AWS_ACCESS_KEY_ID = credentials('adwaa-jenkins-aws-secret-key-id')
         AWS_SECRET_ACCESS_KEY = credentials('adwaa-jenkins-aws-secret-access-key')
         AWS_S3_BUCKET = "adwaa-jenkins.net"
-        ARTIFACT_NAME = "Hi adwaa.dll"
+        ARTIFACT_NAME = "Hi-adwaa.dll"
         AWS_EB_APP_NAME = "adwaa.net"
         AWS_EB_APP_VERSION = "${BUILD_ID}"
         AWS_EB_ENVIRONMENT = "Adwaanet-env"
